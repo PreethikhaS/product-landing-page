@@ -120,17 +120,30 @@
     width:80vw;
     padding:15px;
   }
+
+  #how-it-works >iframe{
+    max-width: 560px;
+    width: 100%;
+  }
   #pricing{
-    display:flex;
-    flex-direction:row;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
   
-  .border{
-    border:1px solid black;
-    padding: 20px;
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
     margin: 10px;
-  }
-  
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+
   .level{
     background-color:lightgrey;
     padding:15px 0;
